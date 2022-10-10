@@ -10,6 +10,7 @@
         
         <?php
 
+            //Affichage des donnée recuperer dans la page precedente.
             echo 'id : '.$_POST["immat_id"].'<br>';
             echo 'Marque : ' .$_POST["marque_id"].'<br>';
             echo 'Couleur : ' .$_POST["couleur_id"].'<br>';
