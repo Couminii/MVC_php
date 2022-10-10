@@ -6,8 +6,9 @@
 <?php
 
 
-require_once ('../model/ModelVoiture.php'); // chargement du modèle 
+require_once ('../model/ModelVoiture.php');
+public static function readAll() { // chargement du modèle 
 $tab_v = ModelVoiture::getAllVoitures(); //appel au modèle pour gerer la BD 
-
+}
 ?>
 </body> </html>
