@@ -10,13 +10,9 @@
         
         <?php
 
-            $id = $_GET['immat_id'];
-            $marque = $_GET['marque_id'];
-            $couleur = $_GET['couleur_id'];
-
-            echo 'id : '.$id.'<br>';
-            echo 'Marque : ' .$marque.'<br>';
-            echo 'Couleur : ' .$couleur.'<br>';
+            echo 'id : '.$_POST["immat_id"].'<br>';
+            echo 'Marque : ' .$_POST["marque_id"].'<br>';
+            echo 'Couleur : ' .$_POST["couleur_id"].'<br>';
         ?>
     </body>
 </html>
